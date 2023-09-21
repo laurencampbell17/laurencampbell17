@@ -3,8 +3,10 @@
     "listing": "/blog.html",
     "items": [
       "/posts/anscombe.html",
+      "/posts/murrell.html",
       "/posts/fallr.html",
       "/posts/ critique.html",
+      "/posts/happyplanet.html",
       "/posts/generative.html"
     ]
   }
