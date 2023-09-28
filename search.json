@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Assignments",
     "section": "",
-    "text": "Hackathon Graph\n\n\n\n\n\n\n\nAssignment4\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPre-Hackathon\n\n\n\n\n\n\n\nAssignment3\n\n\n\n\n\n\n\n\n\n\n\nSep 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nAnscombe Rerun\n\n\n\n\n\n\n\nAssignment3\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\n\n\n\n\n  \n\n\n\n\nRGraphics Basics\n\n\n\n\n\n\n\nAssignment2\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHappy Planet Data\n\n\n\n\n\n\n\nAssignment2\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\n\n\n\n\n  \n\n\n\n\nAnscombe (1973) Quartlet\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nColors\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nChart Critique\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nGenerative Art\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Download COVID data from OWID GitHub\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nHackathon\n\n\n\n\n\n\n\nAssignment4\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackathon Graph\n\n\n\n\n\n\n\nAssignment4\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nPre-Hackathon\n\n\n\n\n\n\n\nAssignment3\n\n\n\n\n\n\n\n\n\n\n\nSep 26, 2023\n\n\n\n\n\n\n  \n\n\n\n\nAnscombe Rerun\n\n\n\n\n\n\n\nAssignment3\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\n\n\n\n\n  \n\n\n\n\nRGraphics Basics\n\n\n\n\n\n\n\nAssignment2\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHappy Planet Data\n\n\n\n\n\n\n\nAssignment2\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\n\n\n\n\n  \n\n\n\n\nAnscombe (1973) Quartlet\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nColors\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nChart Critique\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\n  \n\n\n\n\nGenerative Art\n\n\n\n\n\n\n\nAssignment1\n\n\n\n\n\n\n\n\n\n\n\nSep 13, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -103,5 +103,19 @@
     "title": "Hackathon Graph",
     "section": "",
     "text": "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "posts/hackathon3.html",
+    "href": "posts/hackathon3.html",
+    "title": "Lauren Campbell",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggplot2)\n## Download COVID data from OWID GitHub\nowidall = read.csv(\"https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv?raw=true\")\n# Deselect cases/rows with OWID\nowidall1 = owidall[!grepl(\"^OWID\", owidall$iso_code), ]\n# Subset by country: Italy\nitaly = subset(owidall1, location==\"Italy\")\n\n# Define the date range\nstart_date &lt;- as.Date(\"2020-05-01\")\nend_date &lt;- as.Date(\"2020-5-30\")\nitaly = subset(italy, date &gt;= start_date & date &lt;= end_date)\n\n# Create a grouped column chart\nbase &lt;- ggplot(data= (italy), aes(x=as.Date(date))) + \n  geom_bar(aes(y=log(new_cases)), stat=\"identity\", position =\"identity\", alpha=.3, fill='lightblue', color='lightblue3') +\n  geom_bar(aes(y=log(new_deaths)), stat=\"identity\", position=\"identity\", alpha=.8, fill='pink', color='pink3') + xlim(start_date, end_date) + ylim(0,8) + \n  scale_color_manual(values = c(\"New cases\" = \"lightblue\", \"New deaths\" = \"pink\"), name = \"Legend\")\n\nbase + scale_x_date(date_labels = \"%d\", date_break = \"1 day\") + \n  theme(panel.background = element_rect(fill = \"white\"),\n  panel.border = element_rect(color = \"black\", linewidth = 1, fill = NA),\n  plot.background = element_rect(fill = \"white\"),\n  axis.ticks.x=element_blank(), plot.title = element_text(hjust = 0.5),\n  legend.position=\"bottom\") + \n  labs(title = \"Italian Covid Cases vs Deaths in May 2020\", y = \"Frequency\", x = \"Date\", colour = \"Legend\")\n\nScale for x is already present.\nAdding another scale for x, which will replace the existing scale."
+  },
+  {
+    "objectID": "posts/hackathon.html",
+    "href": "posts/hackathon.html",
+    "title": "Hackathon",
+    "section": "",
+    "text": "1. Variable Width Column Chart\n\n\n\n\n\n\n\n2. Table With Embedded Charts\n\n\n\n\n\n\n\n3. Bar Chart\n\n\n\n\n\n\n\n4. Column Chart"
   }
 ]
