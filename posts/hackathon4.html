@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-09-13">
+<meta name="dcterms.date" content="2023-09-28">
 
-<title>Lauren Campbell - Chart Critique</title>
+<title>Lauren Campbell - Hackathon Graph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,9 +104,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Chart Critique</h1>
+      <h1 class="title">Hackathon Graph</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Assignment1</div>
+                <div class="quarto-category">Assignment4</div>
               </div>
                   </div>
   </div>
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 13, 2023</p>
+        <p class="date">September 28, 2023</p>
       </div>
     </div>
     
@@ -138,31 +138,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>As a big hockey fan, I often find myself reviewing hockey statistics regarding players or games and I really appreciate the way that ESPN presents their game summaries. Below is an example, showing the December 23, 2022 game between the Dallas Stars and the Montreal Canadiens.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.espn.com/nhl/playbyplay/_/gameId/401459127"><img src="images/Screen Shot 2023-09-13 at 1.53.37 AM.png" class="img-fluid figure-img"></a></p>
-</figure>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.3     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
 </div>
-<p>It illustrates all events (shots, goals, hits, penalties, and blocks) throughout the game each with their own unique symbol to illustrate the type of event it is and utilizes the team’s colors to quickly indicate which team’s player was responsible for said event. The Stars won this game 4-2, but even without knowing that, this chart quickly shows that they were dominant for more of the game, as we see a lot more green symbols across the rink.</p>
-<p>If I were to make one criticism of this visualization, it would be that some of the symbols are difficult to differentiate from one another. The shot on goal symbol (the target) looks very similar to the blocks symbol (the “no” symbol), as they’re both circles, and when a lot of events happen in the same area, it can be hard to tell which is which. I think it would be somewhat clearer if they utilized more shapes to help aid comprehension. I do like that the goals symbol (bold target with a circle inside) is a modification of the shots symbol, as goals are the result of shots and so the symbols visually tie them together.</p>
-<p>They also take advantage of it being a digital medium by allowing you to hover over each symbol to get more information on the event, see below.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.espn.com/nhl/playbyplay/_/gameId/401459127"><img src="images/Screen Shot 2023-09-13 at 2.02.09 AM.png" class="img-fluid figure-img"></a></p>
-</figure>
+<div class="cell-output-display">
+<p><img src="hackathon4_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
-<p>You also have the ability to filter the chart by the game’s periods, by specific players, and by event types, which can give an even clearer picture of how exactly the game was played. As we can see in the next image, Roope Hintz took many shots on goal throughout the game, which the Canadiens were only somewhat successful in blocking as he was able to net in two goals.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.espn.com/nhl/playbyplay/_/gameId/401459127"><img src="images/Screen Shot 2023-09-13 at 2.05.00 AM.png" class="img-fluid figure-img" width="895"></a></p>
-</figure>
-</div>
-<p>They also provide higher level stats on the team level. They do a good job labeling each section with exact numbers, but they also provide visuals that make it easier to take in the information at first glance.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.espn.com/nhl/game/_/gameId/401459127"><img src="images/Screen Shot 2023-09-13 at 2.07.28 AM.png" class="img-fluid figure-img"></a></p>
-</figure>
 </div>
 
 

@@ -2,11 +2,14 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/anscombe.html",
+      "/posts/hackathon4.html",
+      "/posts/prework.html",
+      "/posts/anscombe2.html",
       "/posts/murrell.html",
+      "/posts/happyplanet.html",
+      "/posts/anscombe.html",
       "/posts/fallr.html",
       "/posts/ critique.html",
-      "/posts/happyplanet.html",
       "/posts/generative.html"
     ]
   }
