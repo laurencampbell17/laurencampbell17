@@ -5,4 +5,4 @@ categories:
   - Assignment6
 ---
 
-I haven't totally figured out how iFrames work yet, but for now, [here is the link to the shiny app I built for the datasets from the library](https://laurencampbell17.shinyapps.io/shinytest/) and [here is the link to the app I built with my own data set.](https://laurencampbell17.shinyapps.io/myshiny/)
+I haven't totally figured out iFrames yet, but in the meantime, [here is the link to the app I made for the library datasets](https://laurencampbell17.shinyapps.io/shinytest/) and [here is the link to the app I made for my dataset.](https://laurencampbell17.shinyapps.io/myshiny/)
