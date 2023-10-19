@@ -1,0 +1,8 @@
+---
+title: "Shiny"
+date: "10/17/2023"
+categories:
+  - Assignment6
+---
+
+I haven't totally figured out how iFrames work yet, but for now, [here is the link to the shiny app I built for the datasets from the library](https://laurencampbell17.shinyapps.io/shinytest/) and [here is the link to the app I built with my own data set.](https://laurencampbell17.shinyapps.io/myshiny/)
