@@ -2,7 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/shinytest.html",
       "/posts/assignment5.html",
+      "/posts/Malinowski.html",
       "/posts/literateprogramming.html",
       "/posts/stylecomparison.html",
       "/posts/hackathon.html",
