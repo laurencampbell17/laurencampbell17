@@ -1,0 +1,73 @@
+```{r}
+# Shiny test for my files
+
+library(shiny)
+library(readxl)
+library(ggplot2)
+
+df = read_xlsx('2019.xlsx')
+
+library(shiny)
+
+# Define UI ----
+ui <- fluidPage(
+  titlePanel("Global Life Expectancy & Wellbeing in 2019"),
+  
+  sidebarLayout(
+    
+    # Sidebar panel for inputs ----
+    sidebarPanel(
+      
+      # Input: Continent ----
+      checkboxGroupInput(inputId = "cont",
+                         label = "Select continent:",
+                         choices = c("Latin America",
+                                     "North America & Oceania",
+                                     "Western Europe",
+                                     "Eastern Europe & Central Asia",
+                                     "East Asia",
+                                     "South Asia",
+                                     "Middle East",
+                                     "Africa"),
+                         selected = "Latin America")
+      
+    ),
+    mainPanel(
+      textOutput(" "),
+      plotOutput(outputId = "scatterplot")
+    )
+  ))
+
+# Define server logic ----
+server <- function(input, output) {
+  
+  
+  datasetInput <- reactive({
+    df[df$Continent %in% input$cont, ]
+  })
+  
+  output$scatterplot <- renderPlot({
+    plt <- ggplot(datasetInput(), 
+                  aes(x = `Life Expectancy (years)`, 
+                      y = `Ladder of life (Wellbeing) (0-10)`, color = as.factor(`Continent`))) + 
+      geom_point() +
+      geom_smooth(method = lm, se = FALSE, color = "black")
+    scale_color_manual(values = c(
+      "Latin America" = "brown1",
+      "North America & Oceania" = "darkorange", 
+      "Western Europe" = "gold2", 
+      "Eastern Europe & Central Asia" = "palegreen3", 
+      "East Asia" = "turquoise2", 
+      "South Asia" = "dodgerblue2", 
+      "Middle East" = "orchid", 
+      "Africa" = "palevioletred1"
+    ))
+    
+    plt + labs(color = "Selected Continents")
+  })
+}
+
+
+# Run the app ----
+shinyApp(ui = ui, server = server)
+```
