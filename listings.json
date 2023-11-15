@@ -2,6 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/Spatial-Data-2.html",
+      "/posts/Spatial-Data-1.html",
+      "/posts/map.html",
       "/posts/hackathon2.html",
       "/posts/shinytest.html",
       "/posts/assignment5.html",
